@@ -2,6 +2,6 @@ alphabet: {a, b}
 start: q0
 accepting: {q4}
 q0 (_ -> q1) (_ -> q2) (_ -> q3)
-q1 (a -> q1) (b -> q2) 
-q2 (b -> q2) (a -> q4)
+q1 (a -> q1) (b -> q2) (_ -> q2) 
+q2 (b -> q2) (a -> q4) (_ -> q3) 
 q3 (a -> q4)
